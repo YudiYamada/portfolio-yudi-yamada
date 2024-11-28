@@ -1,0 +1,135 @@
+.projects-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+}
+
+.projects-detail{
+    display: none;
+}
+
+.projects-detail.active{
+    display: block;
+}
+
+.projects-box .numb{
+    font-size: 8rem;
+    -webkit-text-stroke: .07rem var(--cor-branca);
+    color: transparent;
+    line-height: 1;
+}
+
+.projects-box h3{
+    font-size: 3.5rem;
+    margin: .8rem 0 2rem;
+}
+
+.projects-box p{
+    font-size: 1.6rem;
+}
+
+.projects-box .tech{
+    margin: 2rem 0;
+    color: var(--cor-principal);
+    border-bottom: .1rem solid var(--cor-branca);
+    padding-bottom: 2rem;
+}
+
+.projects-box .live-github a{
+    position: relative;
+    display: inline-flex;
+    padding: 1.3rem;
+    font-size: 3rem;
+    color: var(--cor-branca);
+    border-radius: 50%;
+    background: var(--segunda-cor-de-fundo);
+    transition: .5s;
+}
+
+.projects-box .live-github a:hover{
+    color: var(--cor-principal);
+}
+
+.projects-box .live-github a:first-child{
+    margin-right: 1.5rem;
+}
+
+.projects-box .live-github a:first-child i{
+    transform: rotate(135deg);
+}
+
+.projects-box .live-github a span{
+    position: absolute;
+    top: -60%;
+    left: 50%;
+    transform: translateX(-50%) scale(.9);
+    font-size: 1.6rem;
+    white-space: nowrap;
+    padding: .5rem 1rem;
+    border-radius: .6rem;
+    pointer-events: none;
+    background: var(--cor-branca);
+    color: var(--cor-de-fundo);
+    opacity: 0;
+    transition: .2s;
+}
+
+.projects-box .live-github a:hover span{
+    top: -70%;
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+}
+
+.projects-box .projects-carrossel{
+    width: 100%;
+    height: 45rem;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.projects-carrossel .img-slide{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+    gap: 2rem;
+    height: inherit;
+    transform: .5s;
+}
+
+.projects-carrossel .img-item{
+    height: inherit;
+}
+
+.projects-carrossel .img-item img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.projects-box .navigation{
+    text-align: right;
+    margin: 2rem;
+}
+
+.projects-box .navigation button{
+    display: inline-flex;
+    padding: .4rem;
+    background: var(--segunda-cor-de-fundo);
+    border: .2rem solid var(--cor-principal);
+    border-radius: .6rem;
+    font-size: 4rem;
+    color: var(--cor-principal);
+    cursor: pointer;
+}
+
+.projects-box .navigation button.disabled{
+    border-color: var(--segunda-cor-de-fundo);
+    color: var(--cor-desativada);
+    pointer-events: none;
+}
+
+.projects-box .navigation .arrow-right{
+    margin-left: 1.5rem;
+}

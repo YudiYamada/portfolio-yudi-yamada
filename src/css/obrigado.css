@@ -1,0 +1,27 @@
+body{
+    background: var(--cor-de-fundo);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-obrigado{
+    padding: 3rem 2.5rem;
+    background: var(--segunda-cor-de-fundo);
+    border-radius: 1rem;
+    color: var(--cor-branca);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.container-obrigado h2{
+    font-size: 3rem;
+}
+
+.container-obrigado h3{
+    font-size: 2.5rem;
+}
