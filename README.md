@@ -1,7 +1,4 @@
-# 📄 Projeto Pessoal - Meu Portfólio
-## Objetivo
-
-Criar uma página com cartinhas informativas sobre frutas típicas do estado do Pará.
+# 📄 Meu Portfólio
 
 ## [Vizualize o projeto clicando aqui](https://yudiyamada.github.io/portfolio-yudi-yamada/) ##
 
