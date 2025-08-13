@@ -137,7 +137,7 @@ section.active{
     display: inline-block;
     color: transparent;
     -webkit-text-stroke: .07rem var(--cor-principal);
-    animation: display-text 16s linear infinite;
+    animation: display-text 12s linear infinite;
     animation-delay: calc(-4s * var(--i));
 }
 
