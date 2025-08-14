@@ -1,122 +1,122 @@
-@media screen and (max-width: 1200px){
-    html{
-        font-size: 55%;
-    }
+@media screen and (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
 }
 
-@media screen and (max-width: 992px){
-    header{
-        padding: 2rem 4%;
-    }
+@media screen and (max-width: 992px) {
+  header {
+    padding: 2rem 4%;
+  }
 
-    section{
-        padding: 10rem 4% 2rem;
-    }
+  section {
+    padding: 10rem 4% 2rem;
+  }
 }
 
-@media screen and (max-width: 810px){
-    .contact-box .field-box{
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 810px) {
+  .contact-box .field-box {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media screen and (max-width: 768px){
-    #menu-icon{
-        display: block;
-    }
+@media screen and (max-width: 768px) {
+  #menu-icon {
+    display: block;
+  }
 
-    nav{
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        padding: 1rem 0;
-        background: var(--cor-de-fundo);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
-        text-align: center;
-        display: none;
-    }
+  nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background: var(--cor-de-fundo);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
+  }
 
-    nav.active{
-        display: block;
-    }
+  nav.active {
+    display: block;
+  }
 
-    nav a{
-        display: block;
-        margin: 4rem 0;
-    }
+  nav a {
+    display: block;
+    margin: 4rem 0;
+  }
 
-    .home{
-        flex-direction: column-reverse;
-        justify-content: center;
-        gap: 2rem;
-    }
+  .home {
+    flex-direction: column-reverse;
+    justify-content: center;
+    gap: 2rem;
+  }
 
-    .home-img .img-box{
-        width: 35rem;
-        height: 35rem;
-    }
+  .home-img .img-box {
+    width: 35rem;
+    height: 35rem;
+  }
 
-    .resume-container,
-    .projects-container,
-    .contact-container{
-        grid-template-columns: 1fr;
-    }
+  .resume-container,
+  .projects-container,
+  .contact-container {
+    grid-template-columns: 1fr;
+  }
 
-    .resume-container{
-        gap: 3rem;
-    }
+  .resume-container {
+    gap: 3rem;
+  }
 
-    .projects-container .projects-box:first-child{
-        order: 1;
-    }
+  .projects-container .projects-box:first-child {
+    order: 1;
+  }
 
-    .contact-box .field-box{
-        grid-template-columns: repeat(2, 1fr);
-    }
+  .contact-box .field-box {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
-@media screen and (max-width: 600px){
-    .home-img .img-box{
-        width: 30rem;
-        height: 30rem;
-    }
+@media screen and (max-width: 600px) {
+  .home-img .img-box {
+    width: 25rem;
+    height: 25rem;
+  }
 
-    .contact-box .field-box{
-        grid-template-columns: 1fr;
-    }
+  .contact-box .field-box {
+    grid-template-columns: 1fr;
+  }
 }
 
-@media screen and (max-width: 450px){
-    html{
-        font-size: 50%;
-    }
+@media screen and (max-width: 450px) {
+  html {
+    font-size: 50%;
+  }
 }
 
-@media screen and (max-width: 400px){
-    .home-detail,
-    .resume-box h2,
-    .resume-box .heading,
-    .resume-box .desc,
-    .resume-detail.about .resume-item{
-        text-align: center;
-    }
+@media screen and (max-width: 400px) {
+  .home-detail,
+  .resume-box h2,
+  .resume-box .heading,
+  .resume-box .desc,
+  .resume-detail.about .resume-item {
+    text-align: center;
+  }
 
-    .home-detail .btn-sci{
-        flex-direction: column-reverse;
-    }
+  .home-detail .btn-sci {
+    flex-direction: column-reverse;
+  }
 
-    .home-detail .btn-sci .sci{
-        margin-left: 0;
-        margin-bottom: 2rem;
-    }
+  .home-detail .btn-sci .sci {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
 
-    .contact-box form{
-        padding: 2.5rem 3rem 3.5rem;
-    }
+  .contact-box form {
+    padding: 2.5rem 3rem 3.5rem;
+  }
 
-    .contact-box h2{
-        font-size: 3.5rem;
-    }
+  .contact-box h2 {
+    font-size: 3.5rem;
+  }
 }

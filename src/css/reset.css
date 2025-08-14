@@ -8,8 +8,6 @@
   font-family: "Poppins", serif;
 }
 
-html,
-body {
+html {
   font-size: 62.5%;
-  height: 100%;
 }

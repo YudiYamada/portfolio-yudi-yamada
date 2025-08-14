@@ -1,16 +1,3 @@
-/*Calcular altura */
-function ajustaAltura() {
-  const alturaReal = window.visualViewport?.height || window.innerHeight;
-
-  document.documentElement.style.setProperty(
-    "--altura-real",
-    `${alturaReal}px`
-  );
-}
-
-window.addEventListener("resize", ajustaAltura);
-window.addEventListener("load", ajustaAltura);
-
 /*Seção Home*/
 const navLinks = document.querySelectorAll("header nav a");
 const logoLink = document.querySelector(".logo");

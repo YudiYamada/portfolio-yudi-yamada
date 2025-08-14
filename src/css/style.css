@@ -95,8 +95,9 @@ nav a.active {
 section {
   position: absolute;
   width: 100%;
-  height: var(--altura-real);
+  height: 100%;
   padding: 10rem 9% 2rem;
+  /* background: var(--cor-de-fundo); */
   visibility: hidden;
   opacity: 0;
   overflow: hidden;
