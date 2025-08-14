@@ -97,7 +97,6 @@ section {
   width: 100%;
   height: 100%;
   padding: 10rem 9% 2rem;
-  /* background: var(--cor-de-fundo); */
   visibility: hidden;
   opacity: 0;
   overflow: hidden;
@@ -123,7 +122,7 @@ section.active {
 }
 
 .home-detail h1 {
-  font-size: clamp(3.2rem, 7vw, 5.2rem);
+  font-size: clamp(3rem, 7vw, 5rem);
 }
 
 .home-detail h2 {

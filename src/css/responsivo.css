@@ -82,9 +82,13 @@
     font-size: 50%;
   }
 
+  section {
+    padding: 6.9rem 5% 2rem;
+  }
+
   .home-img .img-box {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
   }
 
   .home-detail,
@@ -96,21 +100,23 @@
   }
 
   .home-detail .btn-sci {
-    font-size: 0.5rem;
-  }
-  .home-detail .btn-sci .sci {
-    display: flex;
+    flex-direction: column-reverse;
   }
 
-  .contact-box h2 {
-    font-size: 3.5rem;
+  .home-detail .btn-sci .sci {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .contact-box .field-box {
+    grid-template-columns: 1fr;
   }
 
   .contact-box form {
     padding: 2.5rem 3rem 3.5rem;
   }
 
-  .contact-box .field-box {
-    grid-template-columns: 1fr;
+  .contact-box h2 {
+    font-size: 3.5rem;
   }
 }
