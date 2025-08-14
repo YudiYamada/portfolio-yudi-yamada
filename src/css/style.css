@@ -1,6 +1,5 @@
 body {
   color: var(--cor-branca);
-  min-height: 100vh;
 }
 
 header {
@@ -124,7 +123,7 @@ section.active {
 }
 
 .home-detail h1 {
-  font-size: clamp(3.5rem, 7vw, 5.5rem);
+  font-size: clamp(3.2rem, 7vw, 5.2rem);
 }
 
 .home-detail h2 {
