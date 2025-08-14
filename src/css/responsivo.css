@@ -108,6 +108,11 @@
     margin-bottom: 2rem;
   }
 
+  .projects .live-github{
+    display: flex;
+    justify-content: center;
+  }
+
   .contact-box .field-box {
     grid-template-columns: 1fr;
   }
