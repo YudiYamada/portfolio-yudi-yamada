@@ -96,12 +96,7 @@
   }
 
   .home-detail .btn-sci {
-    flex-direction: column-reverse;
-  }
-
-  .home-detail .btn-sci .sci {
-    margin-left: 0;
-    margin-bottom: 2rem;
+    font-size: 0.5rem;
   }
 
   .contact-box h2 {
