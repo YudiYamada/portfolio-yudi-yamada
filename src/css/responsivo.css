@@ -98,6 +98,9 @@
   .home-detail .btn-sci {
     font-size: 0.5rem;
   }
+  .home-detail .btn-sci .sci {
+    display: flex;
+  }
 
   .contact-box h2 {
     font-size: 3.5rem;
