@@ -1,6 +1,7 @@
 /*Calcular altura */
 function ajustaAltura() {
-  const alturaReal = window.innerHeight;
+  const alturaReal = window.visualViewport?.height || window.innerHeight;
+
   document.documentElement.style.setProperty(
     "--altura-real",
     `${alturaReal}px`
