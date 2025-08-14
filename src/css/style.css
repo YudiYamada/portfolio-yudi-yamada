@@ -95,13 +95,21 @@ nav a.active {
 section {
   position: absolute;
   width: 100%;
-  height: 100%;
+
+  /* Fallback mais antigo */
+  height: var(--altura-real, 100vh);
+
+  /* Para navegadores modernos */
+  height: 100dvh;
+  /* Alternativa mais segura no iOS Safari */
+  height: 100svh;
+
   padding: 10rem 9% 2rem;
-  /* background: var(--cor-de-fundo); */
   visibility: hidden;
   opacity: 0;
   overflow: hidden;
 }
+
 
 section.active {
   animation: show-content 1.5s linear forwards;
