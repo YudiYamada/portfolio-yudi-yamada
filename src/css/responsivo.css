@@ -78,23 +78,15 @@
 }
 
 @media screen and (max-width: 600px) {
+  html {
+    font-size: 50%;
+  }
+
   .home-img .img-box {
     width: 25rem;
     height: 25rem;
   }
 
-  .contact-box .field-box {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  html {
-    font-size: 50%;
-  }
-}
-
-@media screen and (max-width: 400px) {
   .home-detail,
   .resume-box h2,
   .resume-box .heading,
@@ -112,11 +104,15 @@
     margin-bottom: 2rem;
   }
 
+  .contact-box h2 {
+    font-size: 3.5rem;
+  }
+
   .contact-box form {
     padding: 2.5rem 3rem 3.5rem;
   }
 
-  .contact-box h2 {
-    font-size: 3.5rem;
+  .contact-box .field-box {
+    grid-template-columns: 1fr;
   }
 }
