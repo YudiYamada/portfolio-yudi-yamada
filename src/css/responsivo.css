@@ -82,6 +82,7 @@
 
   section {
     padding: auto 5% 0;
+    overflow-y: auto;
   }
 
   .home-img .img-box {
