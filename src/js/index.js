@@ -12,7 +12,7 @@ menuIcon.addEventListener("click", () => {
 
 const activePage = () => {
   const header = document.querySelector("header");
-  const barsBox = document.querySelector(".bars-box");
+  // const barsBox = document.querySelector(".bars-box");
 
   header.classList.remove("active");
   setTimeout(() => {
@@ -23,10 +23,10 @@ const activePage = () => {
     link.classList.remove("active");
   });
 
-  barsBox.classList.remove("active");
-  setTimeout(() => {
-    barsBox.classList.add("active");
-  }, 1100);
+  // barsBox.classList.remove("active");
+  // setTimeout(() => {
+  //   barsBox.classList.add("active");
+  // }, 1100);
 
   sections.forEach((section) => {
     section.classList.remove("active");
