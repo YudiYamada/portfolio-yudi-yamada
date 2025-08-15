@@ -49,6 +49,7 @@
     flex-direction: column-reverse;
     justify-content: center;
     gap: 2rem;
+    overflow-y: auto;
   }
 
   .home-img .img-box {
