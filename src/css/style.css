@@ -52,7 +52,13 @@ section {
   position: absolute;
   inset: 0;
   width: 100%;
+  
+  /* Fallback para navegadores mais antigos (usa 100vh) */
   height: 100vh;
+  
+  /* A solução moderna e mais robusta para mobile */
+  height: 100dvh;
+  
   padding: 10rem 9% 2rem;
   opacity: 0;
   visibility: hidden;

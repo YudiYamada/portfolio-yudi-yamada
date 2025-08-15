@@ -18,13 +18,3 @@ body {
   overflow: hidden;
 }
 
-@supports (height: 100svh) {
-  section {
-    height: 100svh;
-  }
-}
-@supports (height: 100dvh) {
-  section {
-    height: 100dvh;
-  }
-}
