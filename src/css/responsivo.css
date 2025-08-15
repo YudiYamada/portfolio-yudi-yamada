@@ -31,8 +31,7 @@
     left: 0;
     width: 100%;
     background: var(--cor-de-fundo);
-    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    border-bottom: 0.1rem solid rgba(0, 0, 0, 0.2);
     text-align: center;
     display: none;
   }
@@ -48,6 +47,7 @@
 
   .home {
     flex-direction: column-reverse;
+    justify-content: center;
     gap: 2rem;
   }
 
