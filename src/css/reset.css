@@ -12,6 +12,9 @@ html {
   font-size: 62.5%;
 }
 
-html, body {
-  height: 100%;
+html,
+body {
+  height: auto;
+  min-height: 100%;
+  overflow-x: hidden;
 }
