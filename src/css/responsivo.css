@@ -21,19 +21,30 @@
 }
 
 @media screen and (max-width: 768px) {
- #menu-icon { display: block; }
+  #menu-icon {
+    display: block;
+  }
+
   nav {
     position: absolute;
     top: 100%;
     left: 0;
     width: 100%;
-    display: none;
-    flex-direction: column;
-    text-align: center;
     background: var(--cor-de-fundo);
+    border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: none;
   }
-  nav.active { display: flex; }
-  nav a { margin: 2rem 0; }
+
+  nav.active {
+    display: block;
+  }
+
+  nav a {
+    display: block;
+    margin: 4rem 0;
+  }
 
   .home {
     flex-direction: column-reverse;
@@ -44,7 +55,6 @@
     width: 35rem;
     height: 35rem;
   }
-
 
   .resume-container,
   .projects-container,
@@ -66,9 +76,13 @@
 }
 
 @media screen and (max-width: 600px) {
-  html { font-size: 50%; }
+  html {
+    font-size: 50%;
+  }
 
-  section { padding: 6.9rem 5% 2rem; }
+  section {
+    padding: 6.9rem 5% 2rem;
+  }
 
   .home-img .img-box {
     width: 20rem;
@@ -87,5 +101,25 @@
     flex-direction: column-reverse;
   }
 
-  .home-detail .btn-sci .sci { margin: 0 0 2rem 0; }
+  .home-detail .btn-sci .sci {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+
+  .projects .live-github{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-box .field-box {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-box form {
+    padding: 2.5rem 3rem 3.5rem;
+  }
+
+  .contact-box h2 {
+    font-size: 3.5rem;
+  }
 }
