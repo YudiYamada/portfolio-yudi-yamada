@@ -102,6 +102,17 @@ section {
   overflow: hidden;
 }
 
+@supports (height: 100svh) {
+  section {
+    height: 100svh;
+  }
+}
+@supports (height: 100dvh) {
+  section {
+    height: 100dvh;
+  }
+}
+
 section.active {
   animation: show-content 1.5s linear forwards;
   animation-delay: 1.6s;
