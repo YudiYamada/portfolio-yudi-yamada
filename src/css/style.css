@@ -14,13 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  /* visibility: hidden;
-  opacity: 0; */
 }
-
-/* header.active {
-  animation: show-header 0.1s linear forwards;
-} */
 
 @keyframes show-header {
   100% {
@@ -54,45 +48,6 @@ nav a.active {
   display: none;
 }
 
-/* .bars-box {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  display: flex;
-}
-
-.bars-box .bar {
-  width: 100%;
-  height: 100%;
-  background: var(--cor-de-fundo);
-  animation: hide-bars 0.5s ease-in-out both;
-  animation-delay: calc(0.1s * var(--i));
-}
-
-@keyframes hide-bars {
-  0% {
-    transform: translateY(0);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-.bars-box.active .bar {
-  animation: show-bars 0.5s ease-in-out both;
-  animation-delay: calc(0.1s * var(--i));
-}
-
-@keyframes show-bars {
-  0% {
-    transform: translateY(-100%);
-  }
-  100% {
-    transform: translateY(0);
-  }
-} */
-
-/* ===== SECTIONS ===== */
 section {
   position: absolute;
   inset: 0;
@@ -114,7 +69,6 @@ section.active {
   transform: translateY(0);
 }
 
-/* ===== ANIMAÇÃO DE SAÍDA ===== */
 section.exit {
   opacity: 0;
   transform: translateY(-20px);
