@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Yudi Yamada - Full Stack Engineer Portfolio
 
-## Getting Started
+This is the repository for my personal portfolio website, designed to showcase my skills, projects, and professional experience as a Full Stack Engineer.
 
-First, run the development server:
+## 🚀 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+You can visit the live version of my portfolio at [yudiyamada.com](https://www.yudiyamada.com).
+
+## 📜 About The Project
+
+This portfolio is a modern, responsive single-page application built with Next.js and Tailwind CSS. It serves as a central hub for my professional identity, providing details about my background, the services I offer, and a curated list of my work. The design is clean, and the user experience is a primary focus.
+
+### Features
+
+-   **Responsive Design:** Looks great on all devices, from mobile phones to desktop computers.
+-   **Project Showcase:** A dedicated section to display my projects with images, descriptions, and links.
+-   **About Me:** A personal introduction, including my skills and professional background.
+-   **Contact Information:** Easy ways to get in touch with me, including social media links and a contact form.
+-   **Downloadable CV:** A direct link to download my professional resume.
+
+## 🛠️ Built With
+
+This project leverages modern web development technologies to deliver a fast, scalable, and maintainable application.
+
+*   **[Next.js](https://nextjs.org/):** A React framework for building server-rendered and statically generated web applications.
+*   **[React](https://reactjs.org/):** A JavaScript library for building user interfaces.
+*   **[TypeScript](https://www.typescriptlang.org/):** A typed superset of JavaScript that compiles to plain JavaScript.
+*   **[Tailwind CSS](https://tailwindcss.com/):** A utility-first CSS framework for rapid UI development.
+*   **[Lucide React](https://lucide.dev/):** A simple and beautiful icon library.
+
+## ⚙️ Getting Started
+
+To get a local copy up and running, follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm (or yarn/pnpm) installed on your machine.
+
+*   **npm**
+    ```sh
+    npm install npm@latest -g
+    ```
+
+### Installation
+
+1.  Clone the repo
+    ```sh
+    git clone https://github.com/YudiYamada/portfolio-yudi-yamada.git
+    ```
+2.  Navigate to the project directory
+    ```sh
+    cd portfolio-yudi-yamada
+    ```
+3.  Install NPM packages
+    ```sh
+    npm install
+    ```
+4.  Run the development server
+    ```sh
+    npm run dev
+    ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Folder Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The project follows the standard Next.js `app` directory structure.
 
-## Learn More
+```
+.
+├── app/                  # Main application folder
+│   ├── about/            # About page
+│   ├── contact/          # Contact page
+│   ├── projects/         # Projects page
+│   ├── services/         # Services page
+│   ├── globals.css       # Global styles
+│   └── layout.tsx        # Root layout
+│   └── page.tsx          # Home page
+├── components/           # Reusable React components
+├── public/               # Static assets (images, documents)
+├── .gitignore            # Git ignore file
+├── next.config.ts        # Next.js configuration
+├── package.json          # Project dependencies and scripts
+└── README.md
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📫 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Yudi Augusto Farias Yamada
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+-   **Email:** [yudiyamada10@gmail.com](mailto:yudiyamada10@gmail.com)
+-   **LinkedIn:** [linkedin.com/in/yudi-yamada](https://www.linkedin.com/in/yudi-yamada-0a10181b9/)
+-   **GitHub:** [github.com/YudiYamada](https://github.com/YudiYamada)
