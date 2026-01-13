@@ -1,0 +1,125 @@
+"use client";
+
+import { Send } from "lucide-react";
+
+const Form = () => {
+  return (
+    <>
+      <div>
+        <h2 className="text-3xl font-bold">
+          Get in <span className="text-primary">touch!</span>
+        </h2>
+        <p className="mt-2 text-zinc-400">I will get in touch.</p>
+      </div>
+
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        className="grid grid-cols-1 gap-6 md:grid-cols-2"
+        aria-labelledby="form-title"
+      >
+        {/* Configurações de SEO e Redirecionamento do Web3Forms */}
+        <input
+          type="hidden"
+          name="access_key"
+          value="bfbdf089-247e-4db6-8f78-839865c0c63d"
+        />
+        <input type="hidden" name="from_name" value="Portfolio Contact" />
+        <input
+          type="checkbox"
+          name="botcheck"
+          className="hidden"
+          style={{ display: "none" }}
+        />
+
+        {/* Name */}
+        <div className="flex flex-col gap-2">
+          <label htmlFor="name" className="sr-only">
+            Full Name
+          </label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Full Name"
+            required
+            autoComplete="name"
+            className="bg-background/50 focus:border-primary rounded-xl border border-white/10 p-4 transition-all outline-none placeholder:text-zinc-600"
+          />
+        </div>
+
+        {/* Email */}
+        <div className="flex flex-col gap-2">
+          <label htmlFor="email" className="sr-only">
+            Email Address
+          </label>
+          <input
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Email Address"
+            required
+            autoComplete="email"
+            className="bg-background/50 focus:border-primary rounded-xl border border-white/10 p-4 transition-all outline-none placeholder:text-zinc-600"
+          />
+        </div>
+
+        {/* Phone */}
+        <div className="flex flex-col gap-2">
+          <label htmlFor="phone" className="sr-only">
+            Phone Number
+          </label>
+          <input
+            id="phone"
+            type="tel"
+            name="phone"
+            placeholder="Phone Number"
+            autoComplete="tel"
+            className="bg-background/50 focus:border-primary rounded-xl border border-white/10 p-4 transition-all outline-none placeholder:text-zinc-600"
+          />
+        </div>
+
+        {/* Subject */}
+        <div className="flex flex-col gap-2">
+          <label htmlFor="subject" className="sr-only">
+            Subject
+          </label>
+          <input
+            id="subject"
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            className="bg-background/50 focus:border-primary rounded-xl border border-white/10 p-4 transition-all outline-none placeholder:text-zinc-600"
+          />
+        </div>
+
+        {/* Message */}
+        <div className="flex flex-col gap-2 md:col-span-2">
+          <label htmlFor="message" className="sr-only">
+            Your Message
+          </label>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Describe your project or message..."
+            rows={5}
+            required
+            className="bg-background/50 focus:border-primary w-full resize-none rounded-xl border border-white/10 p-4 transition-all outline-none placeholder:text-zinc-600"
+          ></textarea>
+        </div>
+
+        <div className="md:col-span-2">
+          <button
+            type="submit"
+            className="bg-primary hover:bg-primary/80 mx-auto flex w-full cursor-pointer items-center justify-center gap-2 rounded-full px-8 py-4 font-bold transition-all hover:scale-105 active:scale-95 md:w-fit"
+          >
+            Send Message
+            <Send size={18} aria-hidden="true" />
+          </button>
+        </div>
+      </form>
+    </>
+  );
+};
+
+export default Form;
