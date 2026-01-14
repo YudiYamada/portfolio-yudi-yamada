@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: "Yudi Yamada Portfolio",
     images: [
       {
-        url: "../public/images/picture-1200x630-for-social-sharing.png",
+        url: "/images/picture-1200x630-for-social-sharing.png",
         width: 1200,
         height: 630,
         alt: "Yudi Yamada Portfolio Preview",
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Yudi Yamada | Full Stack Engineer",
     description: "Professional portfolio and software engineering projects.",
-    images: ["/og-image.jpg"],
+    images: ["/images/picture-1200x630-for-social-sharing.png"],
   },
   robots: {
     index: true,

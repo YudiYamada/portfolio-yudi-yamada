@@ -1,6 +1,8 @@
 // Framework / Bibliotecas Externas (React, Next.js, etc)
+import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
+import OpenGraphImage from "../public/images/picture-1200x630-for-social-sharing.png";
 
 // Bibliotecas de Terceiros (Ícones, UI components, etc)
 import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
@@ -8,19 +10,19 @@ import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
 // Assets e Estilos (Imagens, CSS, JSON)
 import Retrato from "../public/images/retrato.jpg";
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Yudi Yamada | Full Stack Engineer",
   description:
-    "Portfólio profissional de Yudi Yamada, Full Stack Engineer especializado em React, Next.js e Node.js. Transformando ideias em realidade através de código.",
+    "Professional portfolio of Yudi Yamada, Full Stack Engineer specializing in React, Next.js, and Node.js. Turning ideas into reality through code.",
   keywords: [
     "Full Stack Developer",
     "React",
     "Next.js",
-    "Desenvolvedor de Software",
+    "Software Engineer",
     "Yudi Yamada",
   ],
   openGraph: {
-    images: ["../public/images/retrato.jpg"],
+    images: [`${OpenGraphImage}`],
   },
 };
 
@@ -29,7 +31,7 @@ export default function Home() {
     <section
       className="flex min-h-fit flex-col-reverse items-center justify-center lg:flex-row lg:gap-0"
       id="home"
-      aria-label="Introdução profissional de Yudi Yamada, Engenheiro de Software"
+      aria-label="Professional introduction of Yudi Yamada, Software Engineer and Full Stack Engineer"
     >
       <div className="flex-1 p-4 text-center md:basis-1/2 md:p-8 md:text-left">
         <div className="flex flex-col justify-center">
