@@ -4,7 +4,7 @@ This is the repository for my personal portfolio website, designed to showcase m
 
 ## 🚀 Live Demo
 
-You can visit the live version of my portfolio at [yudiyamada.com](https://www.yudiyamada.com).
+You can visit the live version of my portfolio at clicking [HERE](https://portfolio-yudi-yamada.vercel.app/).
 
 ## 📜 About The Project
 

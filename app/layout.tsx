@@ -25,11 +25,11 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Yudi Yamada" }],
   creator: "Yudi Yamada",
-  metadataBase: new URL("https://yudiyamada.github.io/portfolio-yudi-yamada/"),
+  metadataBase: new URL("https://portfolio-yudi-yamada.vercel.app"),
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://yudiyamada.github.io/portfolio-yudi-yamada/",
+    url: "https://portfolio-yudi-yamada.vercel.app",
     title: "Yudi Yamada | Full Stack Engineer",
     description: "Transforming ideas into scalable software solutions.",
     siteName: "Yudi Yamada Portfolio",

@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://yudiyamada.com.br"; // Substituir pelo domínio futuro
+  const baseUrl = "https://portfolio-yudi-yamada.vercel.app"; // Substituir pelo domínio futuro
 
   const routes = [
     "", // Home

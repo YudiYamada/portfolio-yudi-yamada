@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://yudiyamada.com.br/sitemap.xml",
+    sitemap: "https://portfolio-yudi-yamada.vercel.app/sitemap.xml",
   };
 }
