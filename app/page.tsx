@@ -2,7 +2,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import OpenGraphImage from "../public/images/picture-1200x630-for-social-sharing.png";
 
 // Bibliotecas de Terceiros (Ícones, UI components, etc)
 import { Github, Linkedin, Mail, MessageCircle } from "lucide-react";
@@ -22,7 +21,7 @@ export const metadata: Metadata = {
     "Yudi Yamada",
   ],
   openGraph: {
-    images: [`${OpenGraphImage}`],
+    images: ["./images/picture-1200x630-for-social-sharing.png"],
   },
 };
 
