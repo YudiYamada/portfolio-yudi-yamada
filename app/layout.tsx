@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
+import PageTransition from "@/components/page-transition";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -88,7 +89,7 @@ export default function RootLayout({
             id="main-content"
             className="container mx-auto flex flex-1 flex-col justify-center gap-8 px-6 pb-10"
           >
-            {children}
+            <PageTransition>{children}</PageTransition>
           </main>
 
           <footer className="border-t border-none py-8 text-center text-sm text-zinc-500">

@@ -1,13 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #1f242d;       /* fundo escuro */
-  --foreground: #323946;       /* elementos de destaque */
-  --primary-color: #800080;    /* roxo principal */
-  --text-color: #ffffff;       /* texto claro */
-  --desactive-color: #fff3;    /* branco translúcido para desativados */
+  --background: #1f242d; /* fundo escuro */
+  --foreground: #323946; /* elementos de destaque */
+  --primary-color: #800080; /* roxo principal */
+  --text-color: #ffffff; /* texto claro */
+  --desactive-color: #fff3; /* branco translúcido para desativados */
 }
-
 
 @theme inline {
   --color-background: var(--background);
@@ -18,7 +17,6 @@
   --font-sans: var(--font-roboto);
 }
 
-
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #1f242d;
@@ -26,6 +24,23 @@
     --primary-color: #800080;
     --text-color: #ffffff;
     --desactive-color: #fff3;
+  }
+}
+
+@layer base {
+  @keyframes page-enter {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-page-entry {
+    animation: page-enter 1s ease-out forwards;
   }
 }
 
