@@ -2,6 +2,7 @@
 
 // Framework & Core (React, Next.js)
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import Image, { StaticImageData } from "next/image";
 
 // Bibliotecas de Terceiros (i18n, UI, Ícones)
@@ -230,28 +231,36 @@ const AboutClient = () => {
       </div>
 
       {/* Modal de Visualização (Lightbox) */}
-      {selectedImage && (
-        <div
-          className="fixed inset-0 z-100 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
-          onClick={() => setSelectedImage(null)}
-        >
-          <div className="relative flex w-full max-w-5xl flex-col items-center">
-            <button
-              className="hover:text-primary absolute -top-12 right-0 text-4xl text-white transition-colors hover:cursor-pointer"
-              onClick={() => setSelectedImage(null)}
+      {selectedImage &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-9999 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+            onClick={() => setSelectedImage(null)}
+          >
+            {/* Parar a propagação do clique para que o modal não feche ao clicar na imagem */}
+            <div
+              className="relative flex w-full max-w-5xl flex-col items-center"
+              onClick={(e) => e.stopPropagation()}
             >
-              &times;
-            </button>
-            <Image
-              src={selectedImage}
-              alt={t("FullSizeView")}
-              placeholder="blur"
-              className="max-h-[85vh] w-auto rounded-lg object-contain shadow-2xl"
-            />
-            <p className="mt-4 text-sm text-zinc-400">{t("ClickToClose")}</p>
-          </div>
-        </div>
-      )}
+              <button
+                className="hover:text-primary absolute -top-12 right-0 text-4xl text-white transition-colors hover:cursor-pointer"
+                onClick={() => setSelectedImage(null)}
+              >
+                &times;
+              </button>
+
+              <Image
+                src={selectedImage}
+                alt={t("FullSizeView")}
+                placeholder="blur"
+                className="max-h-[85vh] w-auto rounded-lg object-contain shadow-2xl"
+              />
+
+              <p className="mt-4 text-sm text-zinc-400">{t("ClickToClose")}</p>
+            </div>
+          </div>,
+          document.body,
+        )}
     </section>
   );
 };

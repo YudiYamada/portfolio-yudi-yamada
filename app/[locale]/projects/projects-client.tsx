@@ -2,6 +2,7 @@
 
 // Framework & Core (React, Next.js)
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import Image from "next/image";
 
 // Bibliotecas de Terceiros (i18n, UI, Ícones)
@@ -157,27 +158,38 @@ const ProjectsClient = () => {
         </div>
       </div>
 
-      {isZoomed && (
-        <div
-          className="fixed inset-0 z-100 flex cursor-zoom-out items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
-          onClick={() => setIsZoomed(false)}
-        >
-          <div className="relative flex w-full max-w-6xl flex-col items-center">
-            <button className="absolute -top-12 right-0 text-5xl text-white">
-              &times;
-            </button>
-            <p className="text-xl font-bold text-white">
-              {currentProject.title}
-            </p>
-            <Image
-              src={currentProject.image}
-              alt={currentProject.title}
-              className="animate-in zoom-in-95 mt-4 max-h-[85vh] w-auto rounded-lg object-contain shadow-2xl duration-300"
-            />
-            <span className="text-desactive">{t("ClickAnywhereToClose")}</span>
-          </div>
-        </div>
-      )}
+      {/* MODAL COM PORTAL */}
+      {isZoomed &&
+        createPortal(
+          <div
+            className="fixed inset-0 z-100 flex cursor-zoom-out items-center justify-center bg-black/90 p-4 backdrop-blur-sm"
+            onClick={() => setIsZoomed(false)}
+          >
+            <div
+              className="relative flex w-full max-w-6xl flex-col items-center"
+              onClick={(e) => e.stopPropagation()} // Impede que feche ao clicar na imagem
+            >
+              <button
+                className="absolute -top-12 right-0 text-5xl text-white hover:cursor-pointer"
+                onClick={() => setIsZoomed(false)}
+              >
+                &times;
+              </button>
+              <p className="text-xl font-bold text-white">
+                {currentProject.title}
+              </p>
+              <Image
+                src={currentProject.image}
+                alt={currentProject.title}
+                className="animate-in zoom-in-95 mt-4 max-h-[85vh] w-auto rounded-lg object-contain shadow-2xl duration-300"
+              />
+              <span className="text-desactive mt-2">
+                {t("ClickAnywhereToClose")}
+              </span>
+            </div>
+          </div>,
+          document.body,
+        )}
 
       {/* SEO Hidden Content */}
       <div className="sr-only">
