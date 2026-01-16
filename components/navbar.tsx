@@ -69,6 +69,7 @@ const Nav = () => {
             </li>
           );
         })}
+        <p className="text-2xl lg:hidden border-t-2 border-desactive pt-5">{t("Language")}</p>
         <LanguageToggleButton className="lg:hidden space-x-2 text-3xl flex-col flex sm:flex-row" />
       </ul>
     </nav>
