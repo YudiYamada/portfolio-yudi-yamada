@@ -52,7 +52,7 @@ export default async function Home({
             </p>
           </div>
 
-          <div className="mt-10 flex flex-wrap items-center justify-center gap-5 md:justify-start">
+          <div className="mt-10 flex flex-wrap items-center justify-center gap-8 md:justify-start">
             <div>
               <a
                 href="/documents/YudiAugustoFariasYamada_FullStackEngineer.pdf"
