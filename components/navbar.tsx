@@ -2,20 +2,22 @@
 
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useTranslations } from "next-intl";
+import { Link, usePathname } from "@/i18n/navigation";
 
-const links = [
-  { name: "Home", href: "/" },
-  { name: "Services", href: "/services" },
-  { name: "About", href: "/about" },
-  { name: "Projects", href: "/projects" },
-  { name: "Contact", href: "/contact" },
-];
 
 const Nav = () => {
   const pathname = usePathname();
+  const t = useTranslations("Navbar");
   const [isOpen, setIsOpen] = useState(false);
+
+  const links = [
+    { name: t("Home"), href: "/" },
+    { name: t("Services"), href: "/services" },
+    { name: t("About"), href: "/about" },
+    { name: t("Projects"), href: "/projects" },
+    { name: t("Contact"), href: "/contact" },
+  ];
 
   const closeMenu = () => setIsOpen(false);
   const toggleMenu = () => setIsOpen(!isOpen);
@@ -25,7 +27,7 @@ const Nav = () => {
       <div className="md:hidden">
         <button
           onClick={toggleMenu}
-          aria-label="Abrir Menu"
+          aria-label={t("OpenMenu")}
           className="text-text z-500 p-2 hover:cursor-pointer"
         >
           <Menu />
@@ -40,11 +42,11 @@ const Nav = () => {
       )}
 
       <ul
-        className={`bg-foreground border-desactive border-2 md:border-none fixed top-0 right-0 z-40 flex h-screen w-4/6 flex-col items-end gap-8 rounded-tl-3xl rounded-bl-3xl px-3 py-3 transition-transform duration-500 ease-in-out ${isOpen ? "translate-x-0" : "translate-x-full"} md:static md:h-auto md:w-auto md:translate-x-0 md:flex-row md:gap-8 md:bg-transparent md:transition-none`}
+        className={`bg-foreground border-desactive fixed top-0 right-0 z-40 flex h-screen w-4/6 flex-col items-end gap-8 rounded-tl-3xl rounded-bl-3xl border-2 px-3 py-3 transition-transform duration-500 ease-in-out md:border-none ${isOpen ? "translate-x-0" : "translate-x-full"} md:static md:h-auto md:w-auto md:translate-x-0 md:flex-row md:gap-8 md:bg-transparent md:transition-none`}
       >
         <button
           onClick={closeMenu}
-          aria-label="Fechar Menu"
+          aria-label={t("CloseMenu")}
           className="text-text z-500 hover:cursor-pointer md:hidden"
         >
           <X size={50} />

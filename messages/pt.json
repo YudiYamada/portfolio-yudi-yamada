@@ -1,0 +1,191 @@
+{
+  "Metadata": {
+    "DefaultTitle": "Yudi Yamada | Engenheiro Full Stack",
+    "DefaultTemplate": "%s | Yudi Yamada",
+    "DefaultDescription": "Engenheiro Full Stack especializado em React, Next.js e Node.js. Focado na construção de aplicações web escaláveis e soluções digitais de alta performance.",
+    "DefaultKeywords": [
+      "Engenheiro Full Stack",
+      "Desenvolvedor de Software",
+      "Especialista em React",
+      "Portfólio Next.js",
+      "Desenvolvedor TypeScript",
+      "Yudi Yamada"
+    ],
+    "OpenGraph": {
+      "TransformingIdeas": "Transformando ideias em soluções de software escaláveis.",
+      "PortfolioSiteName": "Portfólio Yudi Yamada"
+    },
+    "Twitter": {
+      "ProfessionalPortfolio": "Portfólio profissional e projetos de engenharia de software."
+    }
+  },
+  "Layout": {
+    "SkipToContent": "Pular para o conteúdo",
+    "Footer": "© {year} Yudi Yamada. Construído com Next.js & Tailwind CSS."
+  },
+  "Home": {
+    "Title": "Yudi Yamada | Engenheiro Full Stack",
+    "Description": "Portfólio profissional de Yudi Yamada, Engenheiro Full Stack especializado em React, Next.js e Node.js. Transformando ideias em realidade através do código.",
+    "Keywords": [
+      "Desenvolvedor Full Stack",
+      "React",
+      "Next.js",
+      "Engenheiro de Software",
+      "Yudi Yamada"
+    ],
+    "Name": "Yudi Yamada",
+    "Greeting": "Olá! Sou um",
+    "Role": "Desenvolvedor Full Stack",
+    "Introduction": "Profissional graduado em Análise e Desenvolvimento de Sistemas, apaixonado por tecnologia e inovação. Sou uma pessoa dedicada, com grande capacidade de resolver problemas e trabalhar de forma eficaz em equipe. Estou ansioso para contribuir com minha experiência e entusiasmo em projetos desafiadores, ajudando a transformar ideias em realidade.",
+    "DownloadCV": "Baixar CV",
+    "AccessGitHub": "Acesse meu perfil no GitHub",
+    "GitHub": "GitHub",
+    "AccessLinkedIn": "Acesse meu perfil no LinkedIn",
+    "LinkedIn": "LinkedIn",
+    "SendEmail": "Envie-me um email",
+    "Email": "Email",
+    "SendMessage": "Envie-me uma mensagem no WhatsApp",
+    "WhatsApp": "WhatsApp",
+    "ProfileImageAlt": "Yudi Yamada - Engenheiro Full Stack e Desenvolvedor Web"
+  },
+  "About": {
+    "Title": "Sobre Yudi Yamada | Experiência e Educação Full Stack",
+    "Description": "Saiba mais sobre a trajetória profissional de Yudi Yamada como Engenheiro Full Stack. Especialista em React, Node.js e Infraestrutura em Nuvem.",
+    "Keywords": [
+      "Experiência Yudi Yamada",
+      "Currículo Engenheiro Full Stack",
+      "Habilidades de Engenharia de Software"
+    ],
+    "WhyHireMe": "Por que",
+    "HireMe": "me contratar?",
+    "HireMeDescription": "Atuo como Desenvolvedor Full Stack, aplicando minha expertise em React.js, Next.js, Node.js, TypeScript e PostgreSQL para construir soluções modernas e escaláveis. Tenho experiência com metodologias ágeis, integração de APIs REST, testes com Jest e ferramentas como Docker e Git.",
+    "Skills": "Habilidades",
+    "Experiences": "Experiências",
+    "Certificates": "Certificados",
+    "MyExperience": "Minhas",
+    "MyExperiences": "Experiências",
+    "MyExperiencesDescription": "Abaixo está um resumo da experiência que adquiri durante minha carreira.",
+    "YamadaFinanceTrackTitle": "Desenvolvedor Full Stack | Dashboards Financeiros e Visualização de Dados",
+    "PersonalProject": "Projeto Pessoal",
+    "YamadaFinanceTrackDate": "Out 2025 - Nov 2025",
+    "YamadaFinanceTrackDescription": "Desenvolvi o Yamada Finance Track, um sistema moderno de gestão financeira focado na precisão de dados em tempo real e na experiência do usuário intuitiva. A aplicação fornece um dashboard completo para rastrear receitas, despesas e saldo geral com recursos avançados de filtragem.",
+    "BewearTitle": "Desenvolvedor Full Stack | Bewear (Plataforma de E-commerce Moderna)",
+    "BewearDate": "Ago 2025 - Out 2025",
+    "BewearDescription": "Desenvolvi uma plataforma de e-commerce de alta performance e com recursos completos usando o ecossistema React/Next.js mais recente. O projeto foca em escalabilidade, segurança de tipos e experiência do usuário fluida, desde a descoberta de produtos até o checkout seguro.",
+    "MoviesLibraryTitle": "Desenvolvedor Frontend | Integração de API e Aplicações Web Interativas",
+    "MoviesLibraryDate": "Mai 2025 - Mai 2025",
+    "MoviesLibraryDescription": "Desenvolvi o Movies Library, uma Single Page Application (SPA) dinâmica que consome a API do TMDB para fornecer uma experiência de exploração de banco de dados cinematográfico em tempo real. O projeto foca em busca de alta performance, busca de dados eficiente e roteamento escalável.",
+    "SpotifyCloneTitle": "Desenvolvedor Full Stack | Streaming de Mídia e Arquitetura de API",
+    "SpotifyCloneDate": "Fev 2025 - Fev 2025",
+    "SpotifyCloneDescription": "Desenvolvi um Clone do Spotify de alta fidelidade, uma SPA de streaming de música full-stack projetada para lidar com reprodução de áudio em tempo real, navegação complexa e entrega de dados de alta performance.",
+    "ITInternshipTitle": "Estágio em TI",
+    "ITInternshipInstitution": "Instituto Federal do Pará - IFPA",
+    "ITInternshipDate": "2018 - 2019",
+    "ITInternshipDescription": "Suporte Técnico: Resolução de problemas de hardware, software, sistemas e rede.",
+    "MyDegree": "Meus",
+    "MyDegrees": "Diplomas",
+    "MyDegreesDescription": "Abaixo, apresento minhas certificações de cursos e diplomas acadêmicos.",
+    "AssociateDegree": "Tecnólogo em Análise e Desenvolvimento de Sistemas",
+    "UNAMA": "UNAMA",
+    "FrontendDevelopment": "Desenvolvimento Front-End",
+    "DevQuest": "DevQuest",
+    "BackendDevelopment": "Desenvolvimento Back-end",
+    "VocationalDegree": "Curso Técnico",
+    "IFPA": "IFPA",
+    "FullSizeView": "Visualização em tela cheia",
+    "ClickToClose": "Clique em qualquer lugar para fechar",
+    "MySkill": "Minhas",
+    "MySkills": "Habilidades",
+    "MySkillsDescription": "Abaixo estão minhas principais habilidades e tecnologias.",
+    "Frontend": "Frontend",
+    "BackendAndDatabase": "Backend & Banco de Dados",
+    "ToolsAndDevOps": "Ferramentas & DevOps"
+  },
+  "Contact": {
+    "Phone": "Telefone",
+    "Email": "Email",
+    "Address": "Endereço",
+    "WorkTogether": "Vamos trabalhar juntos",
+    "WorkTogetherDescription": "Gostou do meu trabalho? Então entre em contato para que possamos trabalhar juntos! Atualmente estou disponível para novos projetos e oportunidades."
+  },
+  "Projects": {
+    "Title": "Projetos de Portfólio | Yudi Yamada - Engenheiro Full Stack",
+    "Description": "Explore meus projetos de desenvolvimento web mais recentes, incluindo Yamada Finance Track, Spotify Clone e Bewear E-commerce. Especializado em React, Next.js e Node.js.",
+    "Keywords": [
+      "Portfólio Yudi Yamada",
+      "Projetos Full Stack",
+      "Portfólio Desenvolvedor React",
+      "E-commerce Next.js",
+      "Projeto de Dashboard Financeiro"
+    ],
+    "YamadaFinanceTrackTitle": "Yamada Finance Track",
+    "YamadaFinanceTrackDescription": "Desenvolvi o Yamada Finance Track, um sistema moderno de gestão financeira focado na precisão de dados em tempo real e na experiência do usuário intuitiva. A aplicação fornece um dashboard completo para rastrear receitas, despesas e saldo geral com recursos avançados de filtragem.",
+    "SpotifyTitle": "Spotify",
+    "SpotifyDescription": "Desenvolvi um Clone do Spotify de alta fidelidade, uma SPA de streaming de música full-stack projetada para lidar com reprodução de áudio em tempo real, navegação complexa e entrega de dados de alta performance.",
+    "TypicalFruitsTitle": "Frutas Típicas",
+    "TypicalFruitsDescription": "Apresento meu projeto pessoal sobre frutas do meu estado, em forma de pequenos cards.",
+    "BewearTitle": "Bewear - E-commerce",
+    "BewearDescription": "Desenvolvi uma plataforma de e-commerce de alta performance e com recursos completos usando o ecossistema React/Next.js mais recente. O projeto foca em escalabilidade, segurança de tipos e experiência do usuário fluida, desde a descoberta de produtos até o checkout seguro.",
+    "MoviesLibraryTitle": "Movies Library",
+    "MoviesLibraryDescription": "Desenvolvi o Movies Library, uma Single Page Application (SPA) dinâmica que consome a API do TMDB para fornecer uma experiência de exploração de banco de dados cinematográfico em tempo real. O projeto foca em busca de alta performance, busca de dados eficiente e roteamento escalável.",
+    "BlogTitle": "Blog",
+    "BlogDescription": "Blog desenvolvido com React e JSONPlaceholder para simular posts de blog.",
+    "MyProjects": "Meus Projetos",
+    "PreviousProject": "Projeto anterior",
+    "NextProject": "Próximo projeto",
+    "ClickAnywhereToClose": "clique em qualquer lugar para fechar",
+    "TechnologiesUsed": "Tecnologias usadas: "
+  },
+  "Services": {
+    "Title": "Serviços | Engenharia Full Stack & Soluções em Nuvem",
+    "Description": "Explore meus serviços profissionais: Engenharia Frontend & Backend, Desenvolvimento Fullstack, Infraestrutura em Nuvem e Consultoria Técnica. Soluções escaláveis para o seu produto digital.",
+    "Keywords": [
+      "Serviços de Desenvolvimento de Software",
+      "Especialista Frontend",
+      "Arquitetura Backend",
+      "Infraestrutura em Nuvem",
+      "Desenvolvedor Full Stack para contratar",
+      "Consultoria Técnica"
+    ],
+    "MyServices": "Meus Serviços",
+    "FrontendEngineer": "Desenvolvedor Frontend",
+    "FrontendEngineerDescription": "Especialista em interfaces de alta performance e sistemas de design escaláveis. Desenvolvo aplicações focadas em Core Web Vitals, garantindo que o produto não seja apenas visualmente impecável, mas extremamente rápido, acessível e otimizado para motores de busca (SEO).",
+    "BackendEngineer": "Desenvolvedor Backend",
+    "BackendEngineerDescription": "Desenvolvimento de ecossistemas robustos e APIs resilientes. Focado em arquitetura de microsserviços, modelagem de dados complexos (SQL/NoSQL) e implementação de camadas de segurança, garantindo que o sistema suporte altas cargas mantendo baixa latência.",
+    "FullstackEngineer": "Desenvolvedor Fullstack",
+    "FullstackEngineerDescription": "Engenharia de ponta a ponta: do design do banco de dados à interface do usuário. Tenho domínio completo do Ciclo de Vida de Desenvolvimento de Software (SDLC), integrando pipelines de CI/CD, testes automatizados e integração de serviços de terceiros para entregar produtos digitais prontos para o mercado.",
+    "InfrastructureAndCloud": "Infraestrutura & Nuvem",
+    "InfrastructureAndCloudDescription": "Otimização de ambiente e implantação escalável. Configuração de servidores, automação de ambientes de desenvolvimento e garantia da disponibilidade do sistema através de monitoramento e melhores práticas de Infraestrutura como Código (IaC).",
+    "HardwareConsulting": "Consultoria de Hardware",
+    "HardwareConsultingDescription": "Diagnósticos de alto nível e otimização de infraestrutura local. Trabalho na arquitetura de máquinas personalizadas para alta performance, atualizações estratégicas e recuperação de sistemas operacionais, focando em extrair o máximo desempenho do hardware disponível.",
+    "ComingSoon": "Em Breve",
+    "ComingSoonDescription": "Atualmente estou adquirindo novas habilidades."
+  },
+  "CardService": {
+    "Inquire": "Solicitar informações sobre {title}",
+    "ContactMe": "Contate-me para {title}"
+  },
+  "Form": {
+    "GetInTouch": "Entre em contato!",
+    "IWillGetInTouch": "Eu entrarei em contato.",
+    "FullName": "Nome Completo",
+    "EmailAddress": "Endereço de Email",
+    "PhoneNumber": "Número de Telefone",
+    "Subject": "Assunto",
+    "YourMessage": "Sua Mensagem",
+    "DescribeProject": "Descreva seu projeto ou mensagem...",
+    "SendMessage": "Enviar Mensagem"
+  },
+  "HeaderProjects": {
+    "ViewOnline": "Ver projeto {title} online"
+  },
+  "Navbar": {
+    "Home": "Início",
+    "Services": "Serviços",
+    "About": "Sobre",
+    "Projects": "Projetos",
+    "Contact": "Contato",
+    "OpenMenu": "Abrir Menu",
+    "CloseMenu": "Fechar Menu"
+  }
+}

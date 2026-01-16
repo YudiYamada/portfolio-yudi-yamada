@@ -1,0 +1,191 @@
+{
+  "Metadata": {
+    "DefaultTitle": "Yudi Yamada | Full Stack Engineer",
+    "DefaultTemplate": "%s | Yudi Yamada",
+    "DefaultDescription": "Full Stack Engineer specializing in React, Next.js, and Node.js. Focused on building scalable web applications and high-performance digital solutions.",
+    "DefaultKeywords": [
+      "Full Stack Engineer",
+      "Software Developer",
+      "React Expert",
+      "Next.js Portfolio",
+      "TypeScript Developer",
+      "Yudi Yamada"
+    ],
+    "OpenGraph": {
+      "TransformingIdeas": "Transforming ideas into scalable software solutions.",
+      "PortfolioSiteName": "Yudi Yamada Portfolio"
+    },
+    "Twitter": {
+      "ProfessionalPortfolio": "Professional portfolio and software engineering projects."
+    }
+  },
+  "Layout": {
+    "SkipToContent": "Skip to content",
+    "Footer": "© {year} Yudi Yamada. Built with Next.js & Tailwind CSS."
+  },
+  "Home": {
+    "Title": "Yudi Yamada | Full Stack Engineer",
+    "Description": "Professional portfolio of Yudi Yamada, Full Stack Engineer specializing in React, Next.js, and Node.js. Turning ideas into reality through code.",
+    "Keywords": [
+      "Full Stack Developer",
+      "React",
+      "Next.js",
+      "Software Engineer",
+      "Yudi Yamada"
+    ],
+    "Name": "Yudi Yamada",
+    "Greeting": "Hi! I am a",
+    "Role": "Full Stack Engineer",
+    "Introduction": "Professional with a degree in Systems Analysis and Development, passionate about technology and innovation. I am a dedicated individual with a strong ability to solve problems and work effectively in teams. I am eager to contribute my expertise and enthusiasm to challenging projects, helping transform ideas into reality.",
+    "DownloadCV": "Download CV",
+    "AccessGitHub": "Access my GitHub profile",
+    "GitHub": "GitHub",
+    "AccessLinkedIn": "Access my LinkedIn profile",
+    "LinkedIn": "LinkedIn",
+    "SendEmail": "Send me an email",
+    "Email": "Email",
+    "SendMessage": "Send me a WhatsApp message",
+    "WhatsApp": "WhatsApp",
+    "ProfileImageAlt": "Yudi Yamada - Full Stack Engineer and Web Developer"
+  },
+  "About": {
+    "Title": "About Yudi Yamada | Full Stack Experience & Education",
+    "Description": "Learn more about Yudi Yamada's professional background as a Full Stack Engineer. Expert in React, Node.js, and Cloud Infrastructure.",
+    "Keywords": [
+      "Yudi Yamada experience",
+      "Full Stack Engineer Resume",
+      "Software Engineering Skills"
+    ],
+    "WhyHireMe": "Why",
+    "HireMe": "hire me?",
+    "HireMeDescription": "I work as a Full Stack Engineer, applying my expertise in React.js, Next.js, Node.js, TypeScript, and PostgreSQL to build modern and scalable solutions. I have experience with agile methodologies, REST API integration, testing with Jest, and tools such as Docker and Git.",
+    "Skills": "Skills",
+    "Experiences": "Experiences",
+    "Certificates": "Certificates",
+    "MyExperience": "My",
+    "MyExperiences": "My Experiences",
+    "MyExperiencesDescription": "Below is a summary of the experience I have acquired during my career.",
+    "YamadaFinanceTrackTitle": "Frontend Engineer | Financial Dashboards & Data Visualization",
+    "PersonalProject": "Personal Project",
+    "YamadaFinanceTrackDate": "Oct 2025 - Nov 2025",
+    "YamadaFinanceTrackDescription": "Developed Yamada Finance Track, a modern financial management system focused on real-time data accuracy and intuitive user experience. The application provides a comprehensive dashboard for tracking income, expenses, and overall balance with advanced filtering capabilities.",
+    "BewearTitle": "Full Stack Engineer | Bewear (Modern E-commerce Platform)",
+    "BewearDate": "Aug 2025 - Oct 2025",
+    "BewearDescription": "Developed a high-performance, full-featured e-commerce platform using the latest React/Next.js ecosystem. The project focuses on scalability, type safety, and seamless user experience, from product discovery to secure checkout.",
+    "MoviesLibraryTitle": "Frontend Engineer | API Integration & Interactive Web Applications",
+    "MoviesLibraryDate": "May 2025 - May 2025",
+    "MoviesLibraryDescription": "Developed Movies Library, a dynamic Single Page Application (SPA) that consumes the TMDB API to provide a real-time cinematic database exploration experience. The project focuses on high-performance search, efficient data fetching, and scalable routing.",
+    "SpotifyCloneTitle": "Full Stack Engineer | Media Streaming & API Architecture",
+    "SpotifyCloneDate": "Feb 2025 - Feb 2025",
+    "SpotifyCloneDescription": "Developed a high-fidelity Spotify Clone, a full-stack music streaming SPA designed to handle real-time audio playback, complex navigation, and high-performance data delivery.",
+    "ITInternshipTitle": "IT Internship",
+    "ITInternshipInstitution": "Federal Institute of Pará - IFPA",
+    "ITInternshipDate": "2018 - 2019",
+    "ITInternshipDescription": "Technical Support: Troubleshooting hardware, software, systems, and network issues.",
+    "MyDegree": "My",
+    "MyDegrees": "Degrees",
+    "MyDegreesDescription": "Below, I present my course certifications and academic degrees.",
+    "AssociateDegree": "Associate Degree in Systems Analysis and Development",
+    "UNAMA": "UNAMA",
+    "FrontendDevelopment": "Front-End Development",
+    "DevQuest": "DevQuest",
+    "BackendDevelopment": "Back-end Development",
+    "VocationalDegree": "Vocational Degree",
+    "IFPA": "IFPA",
+    "FullSizeView": "Full size view",
+    "ClickToClose": "Click anywhere to close",
+    "MySkill": "My",
+    "MySkills": "Skills",
+    "MySkillsDescription": "Below are my core skills and technologies.",
+    "Frontend": "Frontend",
+    "BackendAndDatabase": "Backend & Database",
+    "ToolsAndDevOps": "Tools & DevOps"
+  },
+  "Contact": {
+    "Phone": "Phone",
+    "Email": "Email",
+    "Address": "Address",
+    "WorkTogether": "Let's work together",
+    "WorkTogetherDescription": "Did you like my work? Then get in touch so we can work together! I'm currently available for new projects and opportunities."
+  },
+  "Projects": {
+    "Title": "Portfolio Projects | Yudi Yamada - Full Stack Engineer",
+    "Description": "Explore my latest web development projects including Yamada Finance Track, Spotify Clone, and Bewear E-commerce. Specialized in React, Next.js, and Node.js.",
+    "Keywords": [
+      "Yudi Yamada Portfolio",
+      "Full Stack Projects",
+      "React Developer Portfolio",
+      "Next.js E-commerce",
+      "Financial Dashboard Project"
+    ],
+    "YamadaFinanceTrackTitle": "Yamada Finance Track",
+    "YamadaFinanceTrackDescription": "Developed Yamada Finance Track, a modern financial management system focused on real-time data accuracy and intuitive user experience. The application provides a comprehensive dashboard for tracking income, expenses, and overall balance with advanced filtering capabilities.",
+    "SpotifyTitle": "Spotify",
+    "SpotifyDescription": "Developed a high-fidelity Spotify Clone, a full-stack music streaming SPA designed to handle real-time audio playback, complex navigation, and high-performance data delivery.",
+    "TypicalFruitsTitle": "Typical Fruits",
+    "TypicalFruitsDescription": "I present my personal project about fruits from my state, in the form of little cards.",
+    "BewearTitle": "Bewear - E-commerce",
+    "BewearDescription": "Developed a high-performance, full-featured e-commerce platform using the latest React/Next.js ecosystem. The project focuses on scalability, type safety, and seamless user experience, from product discovery to secure checkout.",
+    "MoviesLibraryTitle": "Movies Library",
+    "MoviesLibraryDescription": "Developed Movies Library, a dynamic Single Page Application (SPA) that consumes the TMDB API to provide a real-time cinematic database exploration experience. The project focuses on high-performance search, efficient data fetching, and scalable routing.",
+    "BlogTitle": "Blog",
+    "BlogDescription": "Blog developed with React and JSONPlaceholder to simulate blog posts.",
+    "MyProjects": "My Projects",
+    "PreviousProject": "Previous project",
+    "NextProject": "Next project",
+    "ClickAnywhereToClose": "click anywere to close",
+    "TechnologiesUsed": "Technologies used: "
+  },
+  "Services": {
+    "Title": "Services | Full Stack Engineering & Cloud Solutions",
+    "Description": "Explore my professional services: Frontend & Backend Engineering, Fullstack Development, Cloud Infrastructure, and Technical Consulting. Scalable solutions for your digital product.",
+    "Keywords": [
+      "Software Development Services",
+      "Frontend Specialist",
+      "Backend Architecture",
+      "Cloud Infrastructure",
+      "Full Stack Developer for hire",
+      "Technical Consulting"
+    ],
+    "MyServices": "My Services",
+    "FrontendEngineer": "Frontend Engineer",
+    "FrontendEngineerDescription": "Specialist in high-performance interfaces and scalable design systems. I develop applications focused on Core Web Vitals, ensuring the product is not only visually flawless but extremely fast, accessible, and optimized for search engines (SEO).",
+    "BackendEngineer": "Backend Engineer",
+    "BackendEngineerDescription": "Development of robust ecosystems and resilient APIs. Focused on microservices architecture, complex data modeling (SQL/NoSQL), and implementing security layers, ensuring the system supports high loads while maintaining low latency.",
+    "FullstackEngineer": "Fullstack Engineer",
+    "FullstackEngineerDescription": "End-to-end engineering: from database design to user interface. I have full mastery of the Software Development Life Cycle (SDLC), integrating CI/CD pipelines, automated testing, and third-party service integration to deliver market-ready digital products.",
+    "InfrastructureAndCloud": "Infrastructure & Cloud",
+    "InfrastructureAndCloudDescription": "Environment optimization and scalable deployment. Server configuration, development environment automation, and ensuring system availability through monitoring and Infrastructure as Code (IaC) best practices.",
+    "HardwareConsulting": "Hardware Consulting",
+    "HardwareConsultingDescription": "High-level diagnostics and local infrastructure optimization. I work on custom machine architecture for high performance, strategic upgrades, and operating system recovery, focusing on extracting maximum performance from available hardware.",
+    "ComingSoon": "Coming Soon",
+    "ComingSoonDescription": "I am currently acquiring new skills."
+  },
+  "CardService": {
+    "Inquire": "Inquire about {title}",
+    "ContactMe": "Contact me for {title}"
+  },
+  "Form": {
+    "GetInTouch": "Get in touch!",
+    "IWillGetInTouch": "I will get in touch.",
+    "FullName": "Full Name",
+    "EmailAddress": "Email Address",
+    "PhoneNumber": "Phone Number",
+    "Subject": "Subject",
+    "YourMessage": "Your Message",
+    "DescribeProject": "Describe your project or message...",
+    "SendMessage": "Send Message"
+  },
+  "HeaderProjects": {
+    "ViewOnline": "View {title} project online"
+  },
+  "Navbar": {
+    "Home": "Home",
+    "Services": "Services",
+    "About": "About",
+    "Projects": "Projects",
+    "Contact": "Contact",
+    "OpenMenu": "Open Menu",
+    "CloseMenu": "Close Menu"
+  }
+}

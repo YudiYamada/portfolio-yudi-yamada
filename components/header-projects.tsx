@@ -29,18 +29,18 @@ const HeaderProjects = ({
       <div className="border-t-desactive flex items-center justify-center gap-6 border-t-2 pt-6">
         <Link
           href={online}
-          target="_blanck"
+          target="_blank"
           rel="noopener noreferrer"
-          aria-label={`View ${title} project online`}
+          aria-label={`${title} - Online`}
           className="bg-foreground border-desactive hover:text-primary hover:border-primary rounded-full border-2 p-5 transition-all duration-700 hover:scale-105 hover:cursor-pointer"
         >
           <ArrowUpRight />
         </Link>
         <Link
           href={github}
-          target="_blanck"
+          target="_blank"
           rel="noopener noreferrer"
-          aria-label={`View ${title} project online`}
+          aria-label={`${title} - GitHub`}
           className="bg-foreground border-desactive hover:text-primary hover:border-primary rounded-full border-2 p-5 transition-all duration-700 hover:scale-105 hover:cursor-pointer"
         >
           <Github />

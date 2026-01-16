@@ -1,25 +1,33 @@
-import Form from "@/components/form";
+"use client";
+
+// Bibliotecas de Terceiros (i18n, UI, Ícones)
+import { useTranslations } from "next-intl";
 import { Mail, MapPinHouse, Phone } from "lucide-react";
 
+// Componentes Locais
+import Form from "@/components/form";
+
 const Contact = () => {
+  const t = useTranslations("Contact");
+
   const contactInfo = [
     {
       icon: <Phone size={24} aria-hidden="true" />,
-      label: "Phone",
+      label: t("Phone"),
       value: "+55 (91) 98957-3018",
-      href: "tel:+5591989573018", // Link para discagem direta
+      href: "tel:+5591989573018",
     },
     {
       icon: <Mail size={24} aria-hidden="true" />,
-      label: "Email",
+      label: t("Email"),
       value: "yudiyamada10@gmail.com",
-      href: "mailto:yudiyamada10@gmail.com", // Link para abrir cliente de e-mail
+      href: "mailto:yudiyamada10@gmail.com",
     },
     {
       icon: <MapPinHouse size={24} aria-hidden="true" />,
-      label: "Address",
+      label: t("Address"),
       value: "Bragança, Pará, Brasil",
-      href: "https://www.google.com/maps/search/?api=1&query=Bragança,Pará,Brasil", // Link para o Maps
+      href: "https://www.google.com/maps/search/?api=1&query=Bragança,Pará,Brasil",
     },
   ];
 
@@ -33,15 +41,16 @@ const Contact = () => {
       <div className="flex flex-col gap-8 lg:w-1/3">
         <header className="space-y-4">
           <h1 id="contact-heading" className="text-4xl font-bold">
-            Let&apos;s <span className="text-primary">work together</span>
+            {t("WorkTogether").split(" ").slice(0, 1).join(" ")}{" "}
+            <span className="text-primary">
+              {t("WorkTogether").split(" ").slice(1).join(" ")}
+            </span>
           </h1>
           <p className="text-lg leading-relaxed text-zinc-400">
-            Did you like my work? Then get in touch so we can work together!
-            I&apos;m currently available for new projects and opportunities.
+            {t("WorkTogetherDescription")}
           </p>
         </header>
 
-        {/* Uso da tag <address> para SEO local e semântica */}
         <address className="space-y-6 not-italic">
           {contactInfo.map((item, index) => (
             <div key={index} className="group flex items-center gap-4">
@@ -54,9 +63,11 @@ const Contact = () => {
                 </span>
                 <a
                   href={item.href}
-                  target={item.label === "Address" ? "_blank" : undefined}
+                  target={item.label === t("Address") ? "_blank" : undefined}
                   rel={
-                    item.label === "Address" ? "noopener noreferrer" : undefined
+                    item.label === t("Address")
+                      ? "noopener noreferrer"
+                      : undefined
                   }
                   className="hover:text-primary text-lg font-medium text-white transition-colors focus:underline focus:outline-none"
                 >
