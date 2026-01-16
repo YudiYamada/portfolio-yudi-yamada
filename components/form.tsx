@@ -28,9 +28,11 @@ const Form = () => {
         <input
           type="hidden"
           name="access_key"
-          value="bfbdf089-247e-4db6-8f78-839865c0c63d"
+          value={process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY}
         />
+        
         <input type="hidden" name="from_name" value="Portfolio Contact" />
+        
         <input
           type="checkbox"
           name="botcheck"
