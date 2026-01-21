@@ -147,7 +147,8 @@
       "Desarrollador Full Stack para contratar",
       "Consultoría Técnica"
     ],
-    "MyServices": "Mis Servicios",
+    "MyService": "Mis",
+    "MyServices": "Servicios",
     "FrontendEngineer": "Ingeniero Frontend",
     "FrontendEngineerDescription": "Especialista en interfaces de alto rendimiento y sistemas de diseño escalables. Desarrollo aplicaciones centradas en Core Web Vitals, asegurando que el producto no solo sea visualmente impecable, sino extremadamente rápido, accesible y optimizado para los motores de búsqueda (SEO).",
     "BackendEngineer": "Ingeniero Backend",

@@ -35,7 +35,7 @@ export default async function ServicesPage({
     <section id="services" aria-label={t("Title")} className="py-10">
       <div className="flex justify-center">
         <h2 className="text-5xl">
-          My{" "}
+          {t("MyService")}{" "}
           <span className="text-primary font-bold">
             {t("MyServices").replace("My ", "")}
           </span>

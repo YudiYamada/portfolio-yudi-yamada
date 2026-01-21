@@ -147,7 +147,8 @@
       "Full Stack Developer for hire",
       "Technical Consulting"
     ],
-    "MyServices": "My Services",
+    "MyService": "My",
+    "MyServices": "Services",
     "FrontendEngineer": "Frontend Engineer",
     "FrontendEngineerDescription": "Specialist in high-performance interfaces and scalable design systems. I develop applications focused on Core Web Vitals, ensuring the product is not only visually flawless but extremely fast, accessible, and optimized for search engines (SEO).",
     "BackendEngineer": "Backend Engineer",
